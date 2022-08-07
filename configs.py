@@ -16,7 +16,7 @@ class Config(object):
 	LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-100"))
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-100")
 	DOWN_PATH = os.environ.get("DOWN_PATH", "./downloads")
-	PRESET = os.environ.get("PRESET", "ultrafast")
+	PRESET = os.environ.get("PRESET", "superfast")
 	OWNER_ID = int(os.environ.get("OWNER_ID", "1445283714"))
 	CAPTION = "By @AHToolsBot"
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "WatermarkDinomerah_Bot")
